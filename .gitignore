@@ -1,0 +1,6 @@
+dist
+node_modules
+.idea
+database/*.sqlite
+# Keep environment variables out of version control
+.env
