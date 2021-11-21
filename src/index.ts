@@ -1,4 +1,5 @@
 import express from 'express';
+import renderEngine from './express-edge';
 import http from 'http';
 
 import renderEngine from './express-edge';
