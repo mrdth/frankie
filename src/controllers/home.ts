@@ -3,7 +3,7 @@ import { NextFunction, Request, Response } from 'express';
 const controller = {
 
   show: async function (req: Request, res: Response, next: NextFunction) {
-    res.send('Hello, World!');
+    res.render('home', { message: 'Hello, World!' });
   }
 };
 
